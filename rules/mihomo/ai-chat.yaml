@@ -1,0 +1,76 @@
+# NAME: AI / chat
+# FORMAT: Mihomo rule-provider / classical
+# GENERATED: scripts/build_ai_rules.py
+# SOURCE: data/ai-domains.json
+payload:
+  # OpenAI / ChatGPT (openai)
+  - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,chatgpt.com
+  - DOMAIN-SUFFIX,openai.com
+  - DOMAIN-SUFFIX,oaistatic.com
+  - DOMAIN-SUFFIX,oaiusercontent.com
+  - DOMAIN-SUFFIX,api.openai.com
+  - DOMAIN-SUFFIX,platform.openai.com
+  # Anthropic / Claude (anthropic)
+  - DOMAIN-SUFFIX,anthropic.com
+  - DOMAIN-SUFFIX,claude.ai
+  - DOMAIN-SUFFIX,api.anthropic.com
+  # Google AI / Gemini (google-ai)
+  - DOMAIN-SUFFIX,ai.google.dev
+  - DOMAIN-SUFFIX,aistudio.google.com
+  - DOMAIN-SUFFIX,bard.google.com
+  - DOMAIN-SUFFIX,deepmind.com
+  - DOMAIN-SUFFIX,deepmind.google
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
+  - DOMAIN-SUFFIX,makersuite.google.com
+  # xAI / Grok (xai)
+  - DOMAIN-SUFFIX,grok.com
+  - DOMAIN-SUFFIX,x.ai
+  - DOMAIN-SUFFIX,api.x.ai
+  # Perplexity (perplexity)
+  - DOMAIN-SUFFIX,perplexity.ai
+  - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,api.perplexity.ai
+  # DeepSeek (deepseek)
+  - DOMAIN-SUFFIX,deepseek.com
+  - DOMAIN-SUFFIX,api.deepseek.com
+  # Alibaba Qwen / 通义千问 (qwen)
+  - DOMAIN-SUFFIX,qwen.ai
+  - DOMAIN-SUFFIX,chat.qwen.ai
+  - DOMAIN-SUFFIX,tongyi.aliyun.com
+  - DOMAIN-SUFFIX,dashscope.aliyuncs.com
+  # Moonshot / Kimi (moonshot)
+  - DOMAIN-SUFFIX,moonshot.cn
+  - DOMAIN-SUFFIX,kimi.moonshot.cn
+  - DOMAIN-SUFFIX,api.moonshot.cn
+  # Zhipu / 智谱清言 (zhipu)
+  - DOMAIN-SUFFIX,bigmodel.cn
+  - DOMAIN-SUFFIX,chatglm.cn
+  - DOMAIN-SUFFIX,open.bigmodel.cn
+  # MiniMax (minimax)
+  - DOMAIN-SUFFIX,minimax.chat
+  - DOMAIN-SUFFIX,api.minimax.chat
+  # Mistral / Le Chat (mistral)
+  - DOMAIN-SUFFIX,mistral.ai
+  - DOMAIN-SUFFIX,lechat.mistral.ai
+  - DOMAIN-SUFFIX,api.mistral.ai
+  - DOMAIN-SUFFIX,console.mistral.ai
+  # Cohere (cohere)
+  - DOMAIN-SUFFIX,cohere.com
+  - DOMAIN-SUFFIX,api.cohere.com
+  - DOMAIN-SUFFIX,dashboard.cohere.com
+  # Meta AI / Llama (meta-ai)
+  - DOMAIN-SUFFIX,meta.ai
+  - DOMAIN-SUFFIX,llama.com
+  - DOMAIN-SUFFIX,llama.meta.com
+  # Microsoft Copilot (microsoft-copilot)
+  - DOMAIN-SUFFIX,copilot.com
+  - DOMAIN-SUFFIX,copilot.microsoft.com
+  - DOMAIN-SUFFIX,sydney.bing.com
+  - DOMAIN-SUFFIX,edgeservices.bing.com
+  # Poe (poe)
+  - DOMAIN-SUFFIX,poe.com
+  # Character.AI (character-ai)
+  - DOMAIN-SUFFIX,character.ai

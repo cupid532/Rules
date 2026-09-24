@@ -1,0 +1,276 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "ai.com",
+        "chatgpt.com",
+        "openai.com",
+        "oaistatic.com",
+        "oaiusercontent.com",
+        "api.openai.com",
+        "platform.openai.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "anthropic.com",
+        "claude.ai",
+        "api.anthropic.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ai.google.dev",
+        "aistudio.google.com",
+        "bard.google.com",
+        "deepmind.com",
+        "deepmind.google",
+        "gemini.google.com",
+        "generativeai.google",
+        "generativelanguage.googleapis.com",
+        "makersuite.google.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "grok.com",
+        "x.ai",
+        "api.x.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "perplexity.ai",
+        "pplx.ai",
+        "api.perplexity.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "deepseek.com",
+        "api.deepseek.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "qwen.ai",
+        "chat.qwen.ai",
+        "tongyi.aliyun.com",
+        "dashscope.aliyuncs.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "moonshot.cn",
+        "kimi.moonshot.cn",
+        "api.moonshot.cn"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bigmodel.cn",
+        "chatglm.cn",
+        "open.bigmodel.cn"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "minimax.chat",
+        "api.minimax.chat"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "mistral.ai",
+        "lechat.mistral.ai",
+        "api.mistral.ai",
+        "console.mistral.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cohere.com",
+        "api.cohere.com",
+        "dashboard.cohere.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "meta.ai",
+        "llama.com",
+        "llama.meta.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "copilot.com",
+        "copilot.microsoft.com",
+        "sydney.bing.com",
+        "edgeservices.bing.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "poe.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "character.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "phind.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "you.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "komo.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "huggingface.co",
+        "hf.co"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "openrouter.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "replicate.com",
+        "api.replicate.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "together.ai",
+        "api.together.xyz"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "groq.com",
+        "api.groq.com",
+        "console.groq.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "fireworks.ai",
+        "api.fireworks.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "siliconflow.cn",
+        "api.siliconflow.cn"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "modelscope.cn"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "baichuan-ai.com",
+        "platform.baichuan-ai.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "doubao.com",
+        "volcengine.com",
+        "ark.cn-beijing.volces.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "01.ai",
+        "api.lingyiwanwu.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "cursor.com",
+        "cursor.sh"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "windsurf.com",
+        "codeium.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "v0.dev"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "bolt.new"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "midjourney.com",
+        "cdn.midjourney.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "stability.ai",
+        "api.stability.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "leonardo.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ideogram.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "runwayml.com",
+        "runway.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "elevenlabs.io",
+        "api.elevenlabs.io"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "suno.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "udio.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "gamma.app"
+      ]
+    }
+  ]
+}

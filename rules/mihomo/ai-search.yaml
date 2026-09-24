@@ -1,0 +1,11 @@
+# NAME: AI / search
+# FORMAT: Mihomo rule-provider / classical
+# GENERATED: scripts/build_ai_rules.py
+# SOURCE: data/ai-domains.json
+payload:
+  # Phind (phind)
+  - DOMAIN-SUFFIX,phind.com
+  # You.com AI Search (you-com)
+  - DOMAIN-SUFFIX,you.com
+  # Komo AI (komo)
+  - DOMAIN-SUFFIX,komo.ai

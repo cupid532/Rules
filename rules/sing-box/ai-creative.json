@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "midjourney.com",
+        "cdn.midjourney.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "stability.ai",
+        "api.stability.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "leonardo.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "ideogram.ai"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "runwayml.com",
+        "runway.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "elevenlabs.io",
+        "api.elevenlabs.io"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "suno.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "udio.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "gamma.app"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "version": 2,
+  "rules": [
+    {
+      "domain_suffix": [
+        "phind.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "you.com"
+      ]
+    },
+    {
+      "domain_suffix": [
+        "komo.ai"
+      ]
+    }
+  ]
+}
