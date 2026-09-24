@@ -17,6 +17,16 @@ rules/ai.list           # 可读的通用规则列表
 
 > `ai.srs` 是 sing-box 的二进制规则文件，GitHub 网页不会显示可读文本；需要查看规则内容时，请打开 `ai.json` 或 `ai.list`。远程引用时请使用 Raw 地址，不要使用 GitHub 的 `/blob/` 页面地址。
 
+### sing-box SRS Raw 地址
+
+[点击获取 sing-box SRS Raw 文件](https://raw.githubusercontent.com/cupid532/Rules/main/rules/sing-box/ai.srs)
+
+```text
+https://raw.githubusercontent.com/cupid532/Rules/main/rules/sing-box/ai.srs
+```
+
+在 sing-box 中使用时，格式选择 `binary`。
+
 ## 使用声明
 
 - 本仓库仅供个人使用和学习参考；
