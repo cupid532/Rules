@@ -1,0 +1,12 @@
+{
+  "ai": {"name":"AI / all","scope":"Aggregated AI domains and OpenAI ChatGPT Voice IPv4 snapshot","upstreams":[]},
+  "media": {"name":"Media / streaming and entertainment","scope":"Streaming and entertainment services","upstreams":[]},
+  "telegram": {"name":"Telegram / client and IP ranges","scope":"Telegram clients, API and official IP ranges","upstreams":[]},
+  "google": {"name":"Google / all services","scope":"Google services and APIs","upstreams":[]},
+  "github": {"name":"GitHub / web, API and CDN","scope":"GitHub web, API, raw, Pages and container registry","upstreams":[]},
+  "dev": {"name":"Dev / developer infrastructure","scope":"Developer infrastructure and package registries","upstreams":[]},
+  "microsoft": {"name":"Microsoft / 365 and Live","scope":"Microsoft 365, Office, OneDrive and Live","upstreams":[]},
+  "ads": {"name":"Ads / advertising and tracking","scope":"Advertising and tracking endpoints","upstreams":[]},
+  "geocn": {"name":"GeoCN / mainland China IP ranges","scope":"Mainland China IP ranges; use with no-resolve","upstreams":[]},
+  "stun": {"name":"STUN / TURN hosts","scope":"Known STUN and TURN hosts","upstreams":[]}
+}

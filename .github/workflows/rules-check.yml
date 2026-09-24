@@ -1,0 +1,21 @@
+name: rules-check
+on:
+  push:
+    paths: ["rules/**", "scripts/**", "Makefile", "MAINTAINING.md"]
+  pull_request:
+  workflow_dispatch:
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install sing-box 1.14.2
+        run: |
+          curl -fsSL -o /tmp/sb.tar.gz https://github.com/SagerNet/sing-box/releases/download/v1.14.2/sing-box-1.14.2-linux-amd64.tar.gz
+          tar -xzf /tmp/sb.tar.gz -C /tmp
+          sudo install -m 0755 /tmp/sing-box-1.14.2-linux-amd64/sing-box /usr/local/bin/sing-box
+      - name: Check synchronized files
+        run: make check
