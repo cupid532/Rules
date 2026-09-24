@@ -15,6 +15,12 @@ rules/ai.list           # 可读的通用规则列表
 
 两份文件分别对应不同客户端，均为完整的 AI 聚合规则，按需引用即可。
 
+## 规则搜索器
+
+[打开规则搜索器](https://cupid532.github.io/Rules/) · [查看搜索器源码](docs/index.html)
+
+搜索器会自动同步 `rules/` 目录，支持按关键词、客户端和文件格式筛选，并按“数字 → 字母 → 特殊字符”排列。
+
 > `ai.srs` 是 sing-box 的二进制规则文件，GitHub 网页不会显示可读文本；需要查看规则内容时，请打开 `ai.json` 或 `ai.list`。远程引用时请使用 Raw 地址，不要使用 GitHub 的 `/blob/` 页面地址。
 
 ### sing-box SRS Raw 地址
