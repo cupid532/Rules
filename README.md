@@ -2,36 +2,41 @@
 
 > **个人自用 · Mihomo / sing-box 分流规则 · 禁止传播**
 
-这是一套为个人网络环境和使用习惯整理的 Mihomo、sing-box 分流规则，持续收录和维护常用服务规则，具体内容以规则文件为准。
+这是一套按个人使用习惯维护的 Mihomo、sing-box 分流规则，当前以 AI 服务规则为主。规则内容以仓库中的实际文件为准。
 
 ## 规则文件
 
 ```text
-rules/mihomo/ai.yaml    # Mihomo 可读规则
-rules/sing-box/ai.json  # sing-box 可读源文件
+rules/ai.list           # 通用、可读的总规则列表，也是日常编辑入口
+rules/mihomo/ai.yaml    # Mihomo 规则
+rules/sing-box/ai.json  # sing-box JSON 源规则
 rules/sing-box/ai.srs   # sing-box 二进制规则
-rules/ai.list           # 可读的通用规则列表
 ```
 
-两份文件分别对应不同客户端，均为完整的 AI 聚合规则，按需引用即可。
+同一套规则会同步维护以上四个文件：
 
-## 规则搜索器
+- 日常新增、删除或修正规则，先修改 `rules/ai.list`；
+- 再同步到 `rules/mihomo/ai.yaml` 和 `rules/sing-box/ai.json`；
+- 最后由 `ai.json` 编译生成 `rules/sing-box/ai.srs`；
+- 详细维护流程和检查清单见 [MAINTAINING.md](MAINTAINING.md)。
 
-[打开规则搜索器](https://cupid532.github.io/Rules/) · [查看搜索器源码](docs/index.html)
+远程引用时请使用 Raw 地址，不要使用 GitHub 的 `/blob/` 页面地址。
 
-搜索器会自动同步 `rules/` 目录，支持按关键词、客户端和文件格式筛选，并按“数字 → 字母 → 特殊字符”排列。
+### sing-box
 
-> `ai.srs` 是 sing-box 的二进制规则文件，GitHub 网页不会显示可读文本；需要查看规则内容时，请打开 `ai.json` 或 `ai.list`。远程引用时请使用 Raw 地址，不要使用 GitHub 的 `/blob/` 页面地址。
+可读源规则：
 
-### sing-box SRS Raw 地址
+```text
+https://raw.githubusercontent.com/cupid532/Rules/main/rules/sing-box/ai.json
+```
 
-[点击获取 sing-box SRS Raw 文件](https://raw.githubusercontent.com/cupid532/Rules/main/rules/sing-box/ai.srs)
+二进制规则：
 
 ```text
 https://raw.githubusercontent.com/cupid532/Rules/main/rules/sing-box/ai.srs
 ```
 
-在 sing-box 中使用时，格式选择 `binary`。
+在 sing-box 中使用 `ai.srs` 时，格式选择 `binary`。`ai.srs` 是二进制文件，GitHub 网页不会显示可读文本；需要查看内容时，请打开 `ai.json` 或 `ai.list`。
 
 ## 使用声明
 
