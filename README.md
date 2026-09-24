@@ -36,7 +36,41 @@ rules:
 
 ### sing-box
 
-`sing-box` 文件是 sing-box **source rule-set** JSON 格式，适用于本地规则集：
+你只使用 sing-box 时，**只引入一个聚合文件即可**：
+
+```text
+rules/sing-box/ai.json
+```
+
+这个文件已经包含 `chat`、`search`、`developer`、`creative` 四类 AI 域名；分类文件只是给需要精细拆分的人使用，不需要全部引入。sing-box 的 source rule-set 文件采用 `{"version": 2, "rules": [...]}` 结构。
+
+#### 远程引入（推荐）
+
+把下面内容合并到你的 `route` 配置中，并把 `proxy` 换成你自己的代理出站标签：
+
+```json
+{
+  "route": {
+    "rule_set": [
+      {
+        "tag": "ai",
+        "type": "remote",
+        "format": "source",
+        "url": "https://raw.githubusercontent.com/cupid532/Rules/main/rules/sing-box/ai.json",
+        "update_interval": "1d"
+      }
+    ],
+    "rules": [
+      {
+        "rule_set": ["ai"],
+        "outbound": "proxy"
+      }
+    ]
+  }
+}
+```
+
+如果你的客户端只接受本地规则文件，也可以使用：
 
 ```json
 {
@@ -47,26 +81,16 @@ rules:
 }
 ```
 
-将上述对象放入 `route.rule_set`，再在 `route.rules` 中使用：
+将这个对象放到 `route.rule_set`，并在 `route.rules` 中加入：
 
 ```json
 {
-  "rule_set": [
-    {
-      "tag": "ai",
-      "type": "local",
-      "format": "source",
-      "path": "./rules/sing-box/ai.json"
-    }
-  ],
-  "rules": [
-    {
-      "rule_set": ["ai"],
-      "outbound": "proxy"
-    }
-  ]
+  "rule_set": ["ai"],
+  "outbound": "proxy"
 }
 ```
+
+规则要放在最终的直连兜底规则之前，否则可能已经被前面的规则匹配。sing-box 官方文档定义了 `remote` / `local` source rule-set，以及在路由规则中通过 `rule_set` 引用它。
 
 ### IP 规则说明
 
