@@ -15,7 +15,7 @@ rules/ai.list           # 可读的通用规则列表
 
 两份文件分别对应不同客户端，均为完整的 AI 聚合规则，按需引用即可。
 
-> `ai.srs` 是 sing-box 的二进制规则文件，GitHub 网页不会显示可读文本；需要查看规则内容时，请打开 `ai.json` 或 `ai.list`。
+> `ai.srs` 是 sing-box 的二进制规则文件，GitHub 网页不会显示可读文本；需要查看规则内容时，请打开 `ai.json` 或 `ai.list`。远程引用时请使用 Raw 地址，不要使用 GitHub 的 `/blob/` 页面地址。
 
 ## 使用声明
 
