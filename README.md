@@ -7,8 +7,10 @@
 ## 规则文件
 
 ```text
-rules/mihomo/ai.yaml    # Mihomo AI 分流规则
-rules/sing-box/ai.json  # sing-box AI 分流规则
+rules/mihomo/ai.yaml    # Mihomo 可读规则
+rules/sing-box/ai.json  # sing-box 可读源文件
+rules/sing-box/ai.srs   # sing-box 二进制规则
+rules/ai.list           # 可读的通用规则列表
 ```
 
 两份文件分别对应不同客户端，均为完整的 AI 聚合规则，按需引用即可。

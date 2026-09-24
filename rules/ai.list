@@ -1,0 +1,171 @@
+# AI rule list
+# Readable classical list; includes domain and IP rules.
+# For native sing-box use ai.json or ai.srs.
+# OpenAI / ChatGPT (openai)
+DOMAIN-SUFFIX,ai.com
+DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,api.openai.com
+DOMAIN-SUFFIX,platform.openai.com
+# Anthropic / Claude (anthropic)
+DOMAIN-SUFFIX,anthropic.com
+DOMAIN-SUFFIX,claude.ai
+DOMAIN-SUFFIX,api.anthropic.com
+# Google AI / Gemini (google-ai)
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,deepmind.com
+DOMAIN-SUFFIX,deepmind.google
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,generativelanguage.googleapis.com
+DOMAIN-SUFFIX,makersuite.google.com
+# xAI / Grok (xai)
+DOMAIN-SUFFIX,grok.com
+DOMAIN-SUFFIX,x.ai
+DOMAIN-SUFFIX,api.x.ai
+# Perplexity (perplexity)
+DOMAIN-SUFFIX,perplexity.ai
+DOMAIN-SUFFIX,pplx.ai
+DOMAIN-SUFFIX,api.perplexity.ai
+# DeepSeek (deepseek)
+DOMAIN-SUFFIX,deepseek.com
+DOMAIN-SUFFIX,api.deepseek.com
+# Alibaba Qwen / 通义千问 (qwen)
+DOMAIN-SUFFIX,qwen.ai
+DOMAIN-SUFFIX,chat.qwen.ai
+DOMAIN-SUFFIX,tongyi.aliyun.com
+DOMAIN-SUFFIX,dashscope.aliyuncs.com
+# Moonshot / Kimi (moonshot)
+DOMAIN-SUFFIX,moonshot.cn
+DOMAIN-SUFFIX,kimi.moonshot.cn
+DOMAIN-SUFFIX,api.moonshot.cn
+# Zhipu / 智谱清言 (zhipu)
+DOMAIN-SUFFIX,bigmodel.cn
+DOMAIN-SUFFIX,chatglm.cn
+DOMAIN-SUFFIX,open.bigmodel.cn
+# MiniMax (minimax)
+DOMAIN-SUFFIX,minimax.chat
+DOMAIN-SUFFIX,api.minimax.chat
+# Mistral / Le Chat (mistral)
+DOMAIN-SUFFIX,mistral.ai
+DOMAIN-SUFFIX,lechat.mistral.ai
+DOMAIN-SUFFIX,api.mistral.ai
+DOMAIN-SUFFIX,console.mistral.ai
+# Cohere (cohere)
+DOMAIN-SUFFIX,cohere.com
+DOMAIN-SUFFIX,api.cohere.com
+DOMAIN-SUFFIX,dashboard.cohere.com
+# Meta AI / Llama (meta-ai)
+DOMAIN-SUFFIX,meta.ai
+DOMAIN-SUFFIX,llama.com
+DOMAIN-SUFFIX,llama.meta.com
+# Microsoft Copilot (microsoft-copilot)
+DOMAIN-SUFFIX,copilot.com
+DOMAIN-SUFFIX,copilot.microsoft.com
+DOMAIN-SUFFIX,sydney.bing.com
+DOMAIN-SUFFIX,edgeservices.bing.com
+# Poe (poe)
+DOMAIN-SUFFIX,poe.com
+# Character.AI (character-ai)
+DOMAIN-SUFFIX,character.ai
+# Phind (phind)
+DOMAIN-SUFFIX,phind.com
+# You.com AI Search (you-com)
+DOMAIN-SUFFIX,you.com
+# Komo AI (komo)
+DOMAIN-SUFFIX,komo.ai
+# Hugging Face (huggingface)
+DOMAIN-SUFFIX,huggingface.co
+DOMAIN-SUFFIX,hf.co
+# OpenRouter (openrouter)
+DOMAIN-SUFFIX,openrouter.ai
+# Replicate (replicate)
+DOMAIN-SUFFIX,replicate.com
+DOMAIN-SUFFIX,api.replicate.com
+# Together AI (together)
+DOMAIN-SUFFIX,together.ai
+DOMAIN-SUFFIX,api.together.xyz
+# Groq (groq)
+DOMAIN-SUFFIX,groq.com
+DOMAIN-SUFFIX,api.groq.com
+DOMAIN-SUFFIX,console.groq.com
+# Fireworks AI (fireworks)
+DOMAIN-SUFFIX,fireworks.ai
+DOMAIN-SUFFIX,api.fireworks.ai
+# SiliconFlow / 硅基流动 (siliconflow)
+DOMAIN-SUFFIX,siliconflow.cn
+DOMAIN-SUFFIX,api.siliconflow.cn
+# ModelScope / 魔搭 (modelscope)
+DOMAIN-SUFFIX,modelscope.cn
+# Baichuan / 百川智能 (baichuan)
+DOMAIN-SUFFIX,baichuan-ai.com
+DOMAIN-SUFFIX,platform.baichuan-ai.com
+# Volcengine Ark / 豆包大模型 (volcengine-ark)
+DOMAIN-SUFFIX,doubao.com
+DOMAIN-SUFFIX,volcengine.com
+DOMAIN-SUFFIX,ark.cn-beijing.volces.com
+# 01.AI / Yi (01-ai)
+DOMAIN-SUFFIX,01.ai
+DOMAIN-SUFFIX,api.lingyiwanwu.com
+# Cursor (cursor)
+DOMAIN-SUFFIX,cursor.com
+DOMAIN-SUFFIX,cursor.sh
+# Windsurf / Codeium (windsurf)
+DOMAIN-SUFFIX,windsurf.com
+DOMAIN-SUFFIX,codeium.com
+# Vercel v0 (v0)
+DOMAIN-SUFFIX,v0.dev
+# Bolt.new (bolt)
+DOMAIN-SUFFIX,bolt.new
+# Midjourney (midjourney)
+DOMAIN-SUFFIX,midjourney.com
+DOMAIN-SUFFIX,cdn.midjourney.com
+# Stability AI (stability)
+DOMAIN-SUFFIX,stability.ai
+DOMAIN-SUFFIX,api.stability.ai
+# Leonardo.Ai (leonardo)
+DOMAIN-SUFFIX,leonardo.ai
+# Ideogram (ideogram)
+DOMAIN-SUFFIX,ideogram.ai
+# Runway (runway)
+DOMAIN-SUFFIX,runwayml.com
+DOMAIN-SUFFIX,runway.com
+# ElevenLabs (elevenlabs)
+DOMAIN-SUFFIX,elevenlabs.io
+DOMAIN-SUFFIX,api.elevenlabs.io
+# Suno (suno)
+DOMAIN-SUFFIX,suno.com
+# Udio (udio)
+DOMAIN-SUFFIX,udio.com
+# Gamma (gamma)
+DOMAIN-SUFFIX,gamma.app
+# OpenAI ChatGPT Voice IP (official snapshot; not all OpenAI traffic)
+# SOURCE: https://openai.com/chatgpt-voice.json
+# SOURCE-CREATION-TIME: 2026-03-26T20:12:45.451356+00:00
+IP-CIDR,102.37.57.54/32,no-resolve
+IP-CIDR,13.71.25.29/32,no-resolve
+IP-CIDR,135.220.40.201/32,no-resolve
+IP-CIDR,172.203.39.49/32,no-resolve
+IP-CIDR,172.207.173.200/32,no-resolve
+IP-CIDR,172.214.226.198/32,no-resolve
+IP-CIDR,191.233.251.27/32,no-resolve
+IP-CIDR,20.162.96.163/32,no-resolve
+IP-CIDR,20.168.48.117/32,no-resolve
+IP-CIDR,20.184.36.134/32,no-resolve
+IP-CIDR,20.203.144.245/32,no-resolve
+IP-CIDR,20.74.221.21/32,no-resolve
+IP-CIDR,4.151.200.38/32,no-resolve
+IP-CIDR,4.155.146.196/32,no-resolve
+IP-CIDR,4.197.172.116/32,no-resolve
+IP-CIDR,4.217.235.100/32,no-resolve
+IP-CIDR,4.245.198.13/32,no-resolve
+IP-CIDR,40.118.236.137/32,no-resolve
+IP-CIDR,51.4.112.173/32,no-resolve
+IP-CIDR,52.143.181.161/32,no-resolve
+IP-CIDR,68.155.152.41/32,no-resolve
+IP-CIDR,72.146.20.246/32,no-resolve
+IP-CIDR,74.248.148.7/32,no-resolve
